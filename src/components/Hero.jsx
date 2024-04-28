@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/man-with-glasses-smiling-looking-into-distance-removebg-preview.png";
+import profilepic from "../assets/profilebg.png";
 import resume from '/media/aditya/New Volume/Portfolio/portfolio/src/assets/Adityaresume .pdf'
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
