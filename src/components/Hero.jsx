@@ -1,8 +1,18 @@
 import React from "react";
 import profilepic from "../assets/man-with-glasses-smiling-looking-into-distance-removebg-preview.png";
+import resume from '/media/aditya/New Volume/Portfolio/portfolio/src/assets/Adityaresume .pdf'
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
+  const onButtonClick = () => {
+    const pdfUrl = resume;
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "AdityaResume.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <div>
       <div className=" max-w-[1200px] h-[80vh] mx-auto flex flex-col-reverse sm:flex-row justify-center align-center">
@@ -39,7 +49,7 @@ const Hero = () => {
           <div className="relative inline-flex group my-3">
             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opactiy-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
             </div>
-            <a href="/" title="Download CV" role="button" className="w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">Download CV</a>
+            <a href="/" onClick={onButtonClick} title="Download CV" role="button" className="w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">Download CV</a>
             
 
           </div>
