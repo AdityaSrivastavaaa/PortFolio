@@ -22,9 +22,7 @@ const About = () => {
                 About<span className="primary-text">Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                nostrum repellendus vitae non inventore explicabo nemo quaerat
-                iste vel, dolore officia sunt dolorem!
+              Skilled MERN Stack Developer with  experience in building and maintaining dynamic web applications. Proficient in using MongoDB, Express.js, React.js, and Node.js to create efficient, scalable, and robust solutions. Adept at both front-end and back-end development, with a strong emphasis on delivering user-friendly and high-performance applications. Committed to continuous learning and staying updated with the latest industry trends.
               </p>
             </div>
           </div>
@@ -33,7 +31,7 @@ const About = () => {
         <div className="flex mt-10 items-center gap-7">
           <div className="bg-[#333333]/40 p-5 rounded-lg">
             <h3 className="md:text-4xl text-2xl font-semibold text-white">
-              11
+              5
               <span className="primary-text">+</span>{" "}
             </h3>
             <p>
@@ -42,7 +40,7 @@ const About = () => {
           </div>
           <div className="bg-[#333333]/40 p-5 rounded-lg">
             <h3 className="md:text-4xl text-2xl font-semibold text-white">
-              2
+              1
               <span className="primary-text">+</span>{" "}
             </h3>
             <p>
@@ -51,7 +49,7 @@ const About = () => {
           </div>
           <div className="bg-[#333333]/40 p-5 rounded-lg">
             <h3 className="md:text-4xl text-2xl font-semibold text-white">
-              4
+              1
               <span className="primary-text">+</span>{" "}
             </h3>
             <p>

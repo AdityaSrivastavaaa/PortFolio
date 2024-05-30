@@ -1,5 +1,7 @@
 import React from 'react'
 import img from "../assets/editors.webp"
+import img1 from "../assets/technovaganza.png"
+import img2 from "../assets/captionGenreator.png"
 const Work = () => {
   return (
     <div className='py-6 max-w-[1200px] mx-auto' id='work'>
@@ -12,8 +14,8 @@ const Work = () => {
 
         </div>
        <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8'>
-            <a href="/" className='group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg  md:h-80 '>
-             <img src={img} loading='lazy' alt="" className='absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110'/>
+            <a href="https://technovaganza-website.vercel.app" className='group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg  md:h-80 '>
+             <img src={img1} loading='lazy' alt="" className='absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110'/>
              <div className='poiner-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50'>
 
              </div>
@@ -24,8 +26,8 @@ const Work = () => {
 
              </div>
             </a>
-            <a href="/" className='group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 '>
-             <img src={img} loading='lazy' alt="" className='absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110'/>
+            <a href="https://caption-generator-tawny.vercel.app" className='group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 '>
+             <img src={img2} loading='lazy' alt="" className='absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110'/>
              <div className='poiner-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50'>
 
              </div>

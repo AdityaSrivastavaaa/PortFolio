@@ -1,6 +1,6 @@
 import React from "react";
 import profilepic from "../assets/profilebg.png";
-import resume from '../assets/Adityaresume .pdf'
+import resume from '../assets/Adityamernresume2.pdf'
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
@@ -35,11 +35,11 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-500">
-           I am a Fresher 
+              
             </p>
-          </div>
+          </div> */}
           <div className="text-5xl flex justify-start gap-16 my-7 text-purple-500">
             <AiFillLinkedin />
             <AiFillGithub/>
